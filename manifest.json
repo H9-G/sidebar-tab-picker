@@ -1,0 +1,9 @@
+{
+  "id": "sidebar-tab-picker",
+  "name": "Sidebar Tab Picker",
+  "version": "1.0.0",
+  "minAppVersion": "1.13.0",
+  "description": "Choose which tabs the right sidebar shows and in what order. Changes take effect at once, and hidden tabs stay hidden after a restart.",
+  "author": "H9-",
+  "isDesktopOnly": false
+}

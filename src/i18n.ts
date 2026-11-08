@@ -27,6 +27,8 @@ const en = {
   rescanDesc: "Adds the tabs that are open in the right sidebar now.",
   showAll: "Show all",
   showAllDesc: "Turns every tab in the list on.",
+  supportName: "Support development",
+  supportDesc: "If this plugin is useful to you, you can buy me a coffee.",
 };
 
 export type MessageKey = keyof typeof en;
@@ -45,6 +47,8 @@ const ja: Dict = {
   rescanDesc: "いま右サイドバーで開いているタブを一覧に加えます。",
   showAll: "すべて表示",
   showAllDesc: "一覧のタブをすべてオンにします。",
+  supportName: "開発を応援する",
+  supportDesc: "このプラグインが役に立ったら、コーヒーをおごってもらえるとうれしいです。",
 };
 
 const zhCN: Dict = {
@@ -60,6 +64,8 @@ const zhCN: Dict = {
   rescanDesc: "将右侧边栏中当前打开的标签加入列表。",
   showAll: "全部显示",
   showAllDesc: "打开列表中的所有标签。",
+  supportName: "支持开发",
+  supportDesc: "如果这个插件对你有帮助，欢迎请我喝杯咖啡。",
 };
 
 const zhTW: Dict = {
@@ -75,6 +81,8 @@ const zhTW: Dict = {
   rescanDesc: "將右側邊欄目前開啟的分頁加入清單。",
   showAll: "全部顯示",
   showAllDesc: "開啟清單中的所有分頁。",
+  supportName: "支持開發",
+  supportDesc: "如果這個外掛對你有幫助，歡迎請我喝杯咖啡。",
 };
 
 const ko: Dict = {
@@ -90,6 +98,8 @@ const ko: Dict = {
   rescanDesc: "지금 오른쪽 사이드바에 열려 있는 탭을 목록에 추가합니다.",
   showAll: "모두 표시",
   showAllDesc: "목록의 모든 탭을 켭니다.",
+  supportName: "개발 응원하기",
+  supportDesc: "이 플러그인이 도움이 되었다면 커피 한 잔 사 주세요.",
 };
 
 const es: Dict = {
@@ -105,6 +115,8 @@ const es: Dict = {
   rescanDesc: "Añade las pestañas que están abiertas ahora en la barra lateral derecha.",
   showAll: "Mostrar todas",
   showAllDesc: "Activa todas las pestañas de la lista.",
+  supportName: "Apoya el desarrollo",
+  supportDesc: "Si este plugin te resulta útil, puedes invitarme a un café.",
 };
 
 const fr: Dict = {
@@ -120,6 +132,8 @@ const fr: Dict = {
   rescanDesc: "Ajoute les onglets ouverts en ce moment dans la barre latérale droite.",
   showAll: "Tout afficher",
   showAllDesc: "Active tous les onglets de la liste.",
+  supportName: "Soutenir le développement",
+  supportDesc: "Si ce plugin vous est utile, vous pouvez m'offrir un café.",
 };
 
 const de: Dict = {
@@ -135,6 +149,8 @@ const de: Dict = {
   rescanDesc: "Fügt die Tabs hinzu, die gerade in der rechten Seitenleiste geöffnet sind.",
   showAll: "Alle anzeigen",
   showAllDesc: "Schaltet alle Tabs der Liste ein.",
+  supportName: "Entwicklung unterstützen",
+  supportDesc: "Wenn dir dieses Plugin hilft, kannst du mir einen Kaffee spendieren.",
 };
 
 const DICTS: Record<LangCode, Dict> = { en, ja, "zh-CN": zhCN, "zh-TW": zhTW, ko, es, fr, de };

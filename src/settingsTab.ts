@@ -3,6 +3,8 @@ import type SidebarTabPickerPlugin from "./main";
 import { LANGUAGES, MessageKey, isLangCode } from "./i18n";
 import { move } from "./tabs";
 
+const SUPPORT_URL = "https://buymeacoffee.com/imh9";
+
 export class SidebarSettingTab extends PluginSettingTab {
   constructor(app: App, private plugin: SidebarTabPickerPlugin) {
     super(app, plugin);
@@ -22,6 +24,13 @@ export class SidebarSettingTab extends PluginSettingTab {
     const t = (k: MessageKey) => this.plugin.t(k);
     const p = this.plugin;
     return [
+      {
+        name: t("supportName"),
+        desc: t("supportDesc"),
+        render: (setting) => {
+          setting.addButton((b) => b.setButtonText("☕ Buy me a coffee").setCta().onClick(() => window.open(SUPPORT_URL)));
+        },
+      },
       {
         name: t("language"),
         desc: t("languageDesc"),

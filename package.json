@@ -1,6 +1,6 @@
 {
   "name": "sidebar-tab-picker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Obsidian plugin: choose which tabs the right sidebar shows and in what order.",
   "main": "main.js",
   "scripts": {
